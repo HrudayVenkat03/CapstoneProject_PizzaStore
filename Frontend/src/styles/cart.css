@@ -1,0 +1,165 @@
+/* Center whole page */
+.cart-container{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#f5f6fa;
+ padding-top:100px;
+}
+
+/* Cart card */
+.cart-card{
+  background:white;
+  padding:40px;
+  width:620px;
+  border-radius:14px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Cart title */
+.cart-title{
+  text-align:center;
+  margin-bottom:30px;
+  font-size:28px;
+  font-weight:600;
+}
+
+/* Each pizza row */
+.cart-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 0;
+  border-bottom:1px solid #eee;
+}
+
+/* Left side pizza info */
+.item-info{
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+
+/* Pizza image */
+.cart-img{
+  width:55px;
+  height:55px;
+  object-fit:cover;
+  border-radius:8px;
+}
+
+/* Pizza text */
+.item-info strong{
+  font-size:16px;
+}
+
+.item-info p{
+  font-size:14px;
+  color:#666;
+}
+
+/* Quantity section */
+.quantity-control{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+/* Quantity buttons */
+.qty-btn{
+  background:#ff6a00;
+  border:none;
+  color:white;
+  width:30px;
+  height:30px;
+  border-radius:6px;
+  cursor:pointer;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.qty-btn:hover{
+  background:#e65c00;
+}
+
+/* Quantity number */
+.quantity-control span{
+  font-weight:bold;
+  font-size:15px;
+  width:18px;
+  text-align:center;
+}
+
+/* Remove button */
+.remove-btn{
+  background:#e74c3c;
+  border:none;
+  padding:6px 12px;
+  color:white;
+  border-radius:6px;
+  cursor:pointer;
+  font-size:13px;
+}
+
+.remove-btn:hover{
+  background:#c0392b;
+}
+
+/* Total price row */
+.cart-total-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top:22px;
+}
+
+/* Add more items link */
+.add-more{
+  color:#ff6a00;
+  cursor:pointer;
+  font-weight:500;
+}
+
+.add-more:hover{
+  text-decoration:underline;
+}
+
+/* Place order button */
+.order-btn{
+  width:100%;
+  padding:14px;
+  margin-top:22px;
+  border:none;
+  background:#ff6a00;
+  color:white;
+  font-size:16px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.order-btn:hover{
+  background:#e65c00;
+}
+
+.go-menu-btn{
+  margin-top:15px;
+  padding:10px 22px;
+  background:#ff6a00;
+  color:white;
+  border:none;
+  border-radius:8px;
+  font-size:14px;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.go-menu-btn:hover{
+  background:#e65c00;
+}
+
+.empty-cart{
+  text-align:center;
+  margin-top:20px;
+}

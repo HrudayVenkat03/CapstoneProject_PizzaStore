@@ -1,0 +1,119 @@
+/* RESET PAGE */
+
+html, body{
+  margin:0;
+  padding:0;
+}
+
+/* PAGE CONTAINER */
+
+.success-container{
+  min-height:calc(100vh - 70px);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#f4f6f8;
+}
+
+/* BILL CARD */
+
+.bill-card{
+  background:white;
+  width:500px;
+  padding:40px;
+  border-radius:14px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* SUCCESS ICON */
+
+.success-icon{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  background:#4CAF50;
+  color:white;
+  font-size:36px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:0 auto 20px auto;
+  animation:pop 0.4s ease;
+}
+
+/* POP ANIMATION */
+
+@keyframes pop{
+  0%{
+    transform:scale(0.5);
+    opacity:0;
+  }
+  100%{
+    transform:scale(1);
+    opacity:1;
+  }
+}
+
+/* TITLE */
+
+.bill-card h2{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+/* ORDER ID */
+
+.order-id{
+  text-align:center;
+  margin-bottom:25px;
+  color:#777;
+  font-size:14px;
+}
+
+/* ITEM ROW */
+
+.bill-row{
+  display:flex;
+  justify-content:space-between;
+  padding:12px 0;
+  border-bottom:1px dashed #bdbdbd;
+  font-size:15px;
+}
+
+/* TOTAL */
+
+.bill-total{
+  margin-top:15px;
+  font-size:18px;
+  font-weight:bold;
+  display:flex;
+  justify-content:space-between;
+}
+
+/* ADDRESS + PAYMENT */
+
+.bill-info{
+  margin-top:20px;
+  color:#555;
+  line-height:1.6;
+  font-size:14px;
+}
+
+/* BUTTON */
+
+.home-btn{
+  width:100%;
+  margin-top:25px;
+  padding:14px;
+  border:none;
+  background:#ff6600;
+  color:white;
+  border-radius:8px;
+  font-size:16px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.home-btn:hover{
+  background:#e65c00;
+}

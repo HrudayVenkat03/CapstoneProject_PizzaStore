@@ -1,0 +1,95 @@
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:14px 28px;
+
+  background:#ff6a00;
+  color:white;
+
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+
+  z-index:1000;
+
+  box-shadow:0 3px 12px rgba(0,0,0,0.18);
+
+  box-sizing:border-box;
+}
+
+/* logo */
+
+.logo{
+  font-size:24px;
+  font-weight:700;
+  cursor:pointer;
+  letter-spacing:0.4px;
+}
+
+/* right side */
+
+.nav-links{
+  display:flex;
+  align-items:center;
+  gap:16px;
+}
+
+/* menu + cart + logout buttons */
+
+.nav-btn{
+  text-decoration:none;
+  color:#ff6a00;
+
+  font-size:16px;
+  font-weight:600;
+
+  padding:8px 18px;
+
+  border-radius:8px;
+
+  display:flex;
+  align-items:center;
+  gap:8px;
+
+  background:white;
+
+  border:none;
+  outline:none;
+
+  cursor:pointer;
+
+  transition:all 0.2s ease;
+}
+
+.nav-btn:hover{
+  background:#fff3e8;
+  transform:translateY(-1px);
+}
+
+/* cart */
+
+.cart-btn{
+  position:relative;
+}
+
+/* cart badge */
+
+.cart-count{
+  position:absolute;
+
+  top:-7px;
+  right:-9px;
+
+  background:#ff3b30;
+  color:white;
+
+  font-size:11px;
+  font-weight:700;
+
+  padding:3px 7px;
+
+  border-radius:50%;
+}

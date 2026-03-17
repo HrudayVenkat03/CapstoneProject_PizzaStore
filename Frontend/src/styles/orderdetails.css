@@ -1,0 +1,113 @@
+.bill-container{
+
+  display:flex;
+  justify-content:center;
+  margin-top:120px;
+  padding:20px;
+
+}
+
+.bill-card{
+
+  width:650px;
+  background:white;
+  padding:40px;
+  border-radius:12px;
+  box-shadow:0 12px 30px rgba(0,0,0,0.15);
+
+}
+
+.bill-title{
+
+  text-align:center;
+  margin-bottom:25px;
+
+}
+
+.bill-info{
+
+  font-size:14px;
+  line-height:1.6;
+
+}
+
+.divider{
+
+  margin:20px 0;
+  border-bottom:1px dashed #ccc;
+
+}
+
+/* TABLE */
+
+.invoice-table{
+
+  width:100%;
+  border-collapse:collapse;
+
+}
+
+.invoice-table th{
+
+  padding:10px 0;
+  font-size:14px;
+  border-bottom:2px solid #ddd;
+
+}
+
+.invoice-table td{
+
+  padding:10px 0;
+  border-bottom:1px solid #eee;
+  font-size:14px;
+
+}
+
+/* COLUMN ALIGNMENT */
+
+.col-item{
+
+  width:50%;
+  text-align:left;
+
+}
+
+.col-qty{
+
+  width:10%;
+  text-align:center;
+
+}
+
+.col-price{
+
+  width:20%;
+  text-align:right;
+
+}
+
+.col-total{
+
+  width:20%;
+  text-align:right;
+  font-weight:500;
+
+}
+
+/* TOTAL */
+
+.bill-total{
+
+  display:flex;
+  justify-content:space-between;
+  font-size:18px;
+  font-weight:600;
+
+}
+
+.loading{
+
+  margin-top:120px;
+  text-align:center;
+
+}

@@ -1,0 +1,275 @@
+/* PAGE */
+
+.menu-container{
+  text-align:center;
+  padding:95px 40px 50px 40px;
+  background:#f4f6f8;
+  min-height:100vh;
+}
+
+
+
+/* MENU TITLE */
+
+.menu-container h1{
+  font-size:38px;
+  font-weight:800;
+  color:#ff6a00;
+  margin-bottom:20px;
+  position:relative;
+  display:inline-block;
+  padding-bottom:12px;
+}
+
+.menu-container h1::before{
+  content:"🍕";
+  margin-right:10px;
+  font-size:32px;
+}
+
+.menu-container h1::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:3px;
+  background:#ff6a00;
+  border-radius:2px;
+}
+
+
+
+/* SEARCH + FILTER BAR */
+
+.menu-controls{
+  position:sticky;
+  top:70px;
+  z-index:5;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:14px;
+
+  margin:25px 0 40px 0;
+  padding:10px;
+
+  background:#f4f6f8;
+}
+
+.menu-controls input{
+  width:420px;
+  padding:14px 22px;
+  border-radius:30px;
+  border:2px solid #ff6a00;
+  outline:none;
+  font-size:16px;
+  background:white;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+  transition:all 0.2s ease;
+}
+
+.menu-controls input:focus{
+  box-shadow:0 6px 16px rgba(0,0,0,0.12);
+}
+
+.menu-controls select{
+  padding:10px 12px;
+  border-radius:8px;
+  border:1px solid #ddd;
+  background:white;
+  font-size:14px;
+}
+
+
+
+/* CATEGORY TITLE */
+
+.category-title{
+  text-align:left;
+  margin-top:30px;
+  margin-bottom:22px;
+  font-size:22px;
+  font-weight:600;
+  color:#2c3e50;
+  border-left:4px solid #ff6a00;
+  padding-left:12px;
+}
+
+
+
+/* GRID */
+
+.pizza-grid{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:32px;
+  margin-bottom:40px;
+}
+
+
+
+/* CARD */
+
+.pizza-card{
+  width:300px;
+
+  background:white;
+  padding:22px;
+  border-radius:14px;
+  border:1px solid #eee;
+
+  box-shadow:0 6px 18px rgba(0,0,0,0.08);
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+  transition:all 0.25s ease;
+}
+
+.pizza-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 12px 28px rgba(0,0,0,0.15);
+}
+
+
+
+/* CATEGORY BADGE */
+
+.category-label{
+  align-self:flex-start;
+  margin-bottom:8px;
+  color:white;
+  padding:4px 10px;
+  border-radius:6px;
+  font-size:11px;
+  font-weight:600;
+}
+
+.category-label.veg{
+  background:#27ae60;
+}
+
+.category-label.non-veg{
+  background:#e74c3c;
+}
+
+
+
+/* IMAGE */
+
+.pizza-image{
+  width:100%;
+  height:160px;
+  object-fit:contain;
+  margin-bottom:12px;
+}
+
+
+
+/* TITLE */
+
+.pizza-card h3{
+  font-size:18px;
+  margin-bottom:6px;
+}
+
+
+
+/* DESCRIPTION */
+
+.description{
+  font-size:13px;
+  color:#666;
+  margin-bottom:8px;
+  text-align:center;
+}
+
+
+
+/* PRICE */
+
+.price{
+  font-size:16px;
+  font-weight:600;
+  margin-bottom:12px;
+}
+
+
+
+/* QUANTITY CONTROL */
+
+.qty-control{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+
+  margin:12px 0;
+
+  background:#f8f8f8;
+  padding:6px 12px;
+  border-radius:20px;
+}
+
+.qty-control button{
+  width:28px;
+  height:28px;
+  border:none;
+  border-radius:50%;
+  background:#ff6a00;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.qty-control button:hover{
+  background:#e65c00;
+}
+
+.qty-control span{
+  min-width:24px;
+  text-align:center;
+  font-size:15px;
+  font-weight:600;
+}
+
+
+
+/* ADD BUTTON */
+
+.add-btn{
+  background:#ff6a00;
+  color:white;
+  border:none;
+  padding:10px;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:14px;
+  width:100%;
+  font-weight:600;
+}
+
+.add-btn:hover{
+  background:#e65c00;
+}
+
+
+
+/* OUT OF STOCK */
+
+.out-btn{
+  background:#b0b0b0;
+  color:white;
+  border:none;
+  padding:10px;
+  border-radius:8px;
+  cursor:not-allowed;
+  font-size:14px;
+  width:100%;
+  font-weight:600;
+}

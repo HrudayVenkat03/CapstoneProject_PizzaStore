@@ -1,0 +1,133 @@
+/* PAGE BACKGROUND */
+
+.admin-dashboard{
+  min-height:100vh;
+  background:#f4f6f8;
+}
+
+/* MAIN CONTAINER */
+
+.dashboard-container{
+  max-width:1400px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+/* TITLE */
+
+.dashboard-title{
+  font-size:28px;
+  margin-bottom:40px;
+  font-weight:600;
+}
+
+/* STATS GRID */
+
+.stats-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:30px;
+  margin-bottom:50px;
+}
+
+/* STAT CARD */
+
+.stat-card{
+  background:white;
+  padding:40px;
+  border-radius:12px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.08);
+  text-align:center;
+  transition:transform 0.2s ease;
+}
+
+.stat-card:hover{
+  transform:translateY(-5px);
+}
+
+.stat-card h3{
+  color:#555;
+  margin-bottom:15px;
+  font-size:16px;
+}
+
+.stat-number{
+  font-size:32px;
+  font-weight:bold;
+  color:#ff6600;
+}
+
+/* RECENT ORDERS */
+
+.recent-title{
+  margin-bottom:15px;
+  font-size:18px;
+  font-weight:600;
+}
+
+/* TABLE CARD */
+
+.orders-card{
+  background:white;
+  border-radius:12px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.08);
+  overflow:hidden;
+}
+
+/* TABLE */
+
+.orders-table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+/* TABLE HEADER */
+
+.orders-table thead{
+  background:#2c2c2c;
+  color:white;
+}
+
+.orders-table th{
+  padding:16px;
+  text-align:left;
+  font-size:14px;
+  font-weight:500;
+}
+
+/* TABLE BODY */
+
+.orders-table td{
+  padding:14px;
+  border-bottom:1px solid #eee;
+  font-size:14px;
+}
+
+/* ZEBRA ROWS */
+
+.orders-table tbody tr:nth-child(even){
+  background:#fafafa;
+}
+
+/* HOVER EFFECT */
+
+.orders-table tbody tr:hover{
+  background:#f1f3f5;
+}
+
+/* STATUS COLORS */
+
+.status-approved{
+  color:#28a745;
+  font-weight:600;
+}
+
+.status-pending{
+  color:#ff6600;
+  font-weight:600;
+}
+
+.status-cancelled{
+  color:#e53935;
+  font-weight:600;
+}
